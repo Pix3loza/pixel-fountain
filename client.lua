@@ -5,7 +5,7 @@ Citizen.CreateThread(function ()
         exports.ox_target:addSphereZone({
             coords = fountain.coords,
             name = 'fountain',
-            size = fountain.radius,
+            radius = fountain.radius,
             debug = fountain.debug,
             options = {
                 {
